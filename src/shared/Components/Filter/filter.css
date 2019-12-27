@@ -1,0 +1,28 @@
+.filterContainer {
+  padding-left: 30px;
+  border: 0.5px solid darkgray;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 25px;
+}
+
+.filterPaddingTop {
+  padding-top: 10px;
+}
+
+.titleContainer {
+  padding-left: 0px;
+  border-bottom: 0.5px solid darkgrey;
+  min-height: 30px;
+}
+
+.title {
+  padding-top: 18px;
+  font-size: 18px;
+  padding-left: 0px;
+}
+
+.btn {
+  padding: 2px 8px 4px 8px;
+  margin-top: 6px;
+}

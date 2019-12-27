@@ -1,0 +1,22 @@
+.k-input {
+  max-width: 90px;
+}
+
+.timePicker_wrapper {
+  padding-left: 0px;
+}
+
+.timePicker_label {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.button_container {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.title_header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

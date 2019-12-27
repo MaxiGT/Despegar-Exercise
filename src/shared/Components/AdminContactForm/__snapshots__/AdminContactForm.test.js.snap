@@ -1,0 +1,464 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminContactForm Should render properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AdminContactForm
+    config={
+      Array [
+        Object {
+          "component": [Function],
+          "isRequired": true,
+          "label": "Nombre",
+          "length": 200,
+          "name": "name",
+          "validateField": Array [
+            "adminContact",
+            "name",
+          ],
+        },
+        Object {
+          "component": [Function],
+          "isRequired": true,
+          "label": "Apellido",
+          "length": 200,
+          "name": "lastName",
+          "validateField": Array [
+            "adminContact",
+            "lastName",
+          ],
+        },
+        Object {
+          "component": [Function],
+          "isRequired": true,
+          "label": "Telefono",
+          "length": 100,
+          "name": "phone",
+          "validateField": Array [
+            "adminContact",
+            "phone",
+          ],
+        },
+        Object {
+          "component": [Function],
+          "isRequired": true,
+          "label": "Email",
+          "length": 50,
+          "name": "email",
+          "validateField": Array [
+            "adminContact",
+            "email",
+          ],
+        },
+      ]
+    }
+    isAdmin={true}
+    onChange={[Function]}
+    value={
+      Object {
+        "email": "MockEmail@MockEmail.com",
+        "lastName": "Mock LastName",
+        "name": "Admin Mock Name",
+        "phone": "456 715 42",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Input
+          append={true}
+          component={[Function]}
+          isRequired={true}
+          label="Nombre"
+          length={200}
+          name="name"
+          onChange={[Function]}
+          placeholder=""
+          type="text"
+          validateField={
+            Array [
+              "adminContact",
+              "name",
+            ]
+          }
+          value="Admin Mock Name"
+        />,
+        <Input
+          append={true}
+          component={[Function]}
+          isRequired={true}
+          label="Apellido"
+          length={200}
+          name="lastName"
+          onChange={[Function]}
+          placeholder=""
+          type="text"
+          validateField={
+            Array [
+              "adminContact",
+              "lastName",
+            ]
+          }
+          value="Mock LastName"
+        />,
+        <Input
+          append={true}
+          component={[Function]}
+          isRequired={true}
+          label="Telefono"
+          length={100}
+          name="phone"
+          onChange={[Function]}
+          placeholder=""
+          type="text"
+          validateField={
+            Array [
+              "adminContact",
+              "phone",
+            ]
+          }
+          value="456 715 42"
+        />,
+        <Input
+          append={true}
+          component={[Function]}
+          isRequired={true}
+          label="Email"
+          length={50}
+          name="email"
+          onChange={[Function]}
+          placeholder=""
+          type="text"
+          validateField={
+            Array [
+              "adminContact",
+              "email",
+            ]
+          }
+          value="MockEmail@MockEmail.com"
+        />,
+      ],
+      "className": "col-9",
+      "style": Object {
+        "paddingLeft": "0",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "append": true,
+          "component": [Function],
+          "isRequired": true,
+          "label": "Nombre",
+          "length": 200,
+          "name": "name",
+          "onChange": [Function],
+          "placeholder": "",
+          "type": "text",
+          "validateField": Array [
+            "adminContact",
+            "name",
+          ],
+          "value": "Admin Mock Name",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "append": true,
+          "component": [Function],
+          "isRequired": true,
+          "label": "Apellido",
+          "length": 200,
+          "name": "lastName",
+          "onChange": [Function],
+          "placeholder": "",
+          "type": "text",
+          "validateField": Array [
+            "adminContact",
+            "lastName",
+          ],
+          "value": "Mock LastName",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "append": true,
+          "component": [Function],
+          "isRequired": true,
+          "label": "Telefono",
+          "length": 100,
+          "name": "phone",
+          "onChange": [Function],
+          "placeholder": "",
+          "type": "text",
+          "validateField": Array [
+            "adminContact",
+            "phone",
+          ],
+          "value": "456 715 42",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "class",
+        "props": Object {
+          "append": true,
+          "component": [Function],
+          "isRequired": true,
+          "label": "Email",
+          "length": 50,
+          "name": "email",
+          "onChange": [Function],
+          "placeholder": "",
+          "type": "text",
+          "validateField": Array [
+            "adminContact",
+            "email",
+          ],
+          "value": "MockEmail@MockEmail.com",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Input
+            append={true}
+            component={[Function]}
+            isRequired={true}
+            label="Nombre"
+            length={200}
+            name="name"
+            onChange={[Function]}
+            placeholder=""
+            type="text"
+            validateField={
+              Array [
+                "adminContact",
+                "name",
+              ]
+            }
+            value="Admin Mock Name"
+          />,
+          <Input
+            append={true}
+            component={[Function]}
+            isRequired={true}
+            label="Apellido"
+            length={200}
+            name="lastName"
+            onChange={[Function]}
+            placeholder=""
+            type="text"
+            validateField={
+              Array [
+                "adminContact",
+                "lastName",
+              ]
+            }
+            value="Mock LastName"
+          />,
+          <Input
+            append={true}
+            component={[Function]}
+            isRequired={true}
+            label="Telefono"
+            length={100}
+            name="phone"
+            onChange={[Function]}
+            placeholder=""
+            type="text"
+            validateField={
+              Array [
+                "adminContact",
+                "phone",
+              ]
+            }
+            value="456 715 42"
+          />,
+          <Input
+            append={true}
+            component={[Function]}
+            isRequired={true}
+            label="Email"
+            length={50}
+            name="email"
+            onChange={[Function]}
+            placeholder=""
+            type="text"
+            validateField={
+              Array [
+                "adminContact",
+                "email",
+              ]
+            }
+            value="MockEmail@MockEmail.com"
+          />,
+        ],
+        "className": "col-9",
+        "style": Object {
+          "paddingLeft": "0",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "append": true,
+            "component": [Function],
+            "isRequired": true,
+            "label": "Nombre",
+            "length": 200,
+            "name": "name",
+            "onChange": [Function],
+            "placeholder": "",
+            "type": "text",
+            "validateField": Array [
+              "adminContact",
+              "name",
+            ],
+            "value": "Admin Mock Name",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "append": true,
+            "component": [Function],
+            "isRequired": true,
+            "label": "Apellido",
+            "length": 200,
+            "name": "lastName",
+            "onChange": [Function],
+            "placeholder": "",
+            "type": "text",
+            "validateField": Array [
+              "adminContact",
+              "lastName",
+            ],
+            "value": "Mock LastName",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "append": true,
+            "component": [Function],
+            "isRequired": true,
+            "label": "Telefono",
+            "length": 100,
+            "name": "phone",
+            "onChange": [Function],
+            "placeholder": "",
+            "type": "text",
+            "validateField": Array [
+              "adminContact",
+              "phone",
+            ],
+            "value": "456 715 42",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "class",
+          "props": Object {
+            "append": true,
+            "component": [Function],
+            "isRequired": true,
+            "label": "Email",
+            "length": 50,
+            "name": "email",
+            "onChange": [Function],
+            "placeholder": "",
+            "type": "text",
+            "validateField": Array [
+              "adminContact",
+              "email",
+            ],
+            "value": "MockEmail@MockEmail.com",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

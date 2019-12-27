@@ -1,0 +1,24 @@
+.paddingCero {
+  padding: 0px;
+}
+
+.pagination {
+  padding-top: 20px;
+}
+
+.pagination li {
+  min-width: 20px;
+  border: 0.5px solid darkgrey;
+  padding-left: 6px;
+  padding-right: 6px;
+  cursor: pointer;
+}
+
+.pagination .disabled {
+  cursor: not-allowed !important;
+  color: lightgray;
+}
+
+.pagination .active {
+  background-color: lightblue;
+}

@@ -1,0 +1,8 @@
+.headerCell {
+  border: 0.5px solid darkgrey;
+}
+
+.orderArrow {
+  position: absolute;
+  right: 25px;
+}
